@@ -2,7 +2,7 @@
 
 Landing que ofrece soluciones digitales en el ámbito del real estate y turismo.
 
-<!-- **DEMO** &#x279c; [](./) -->
+**DEMO** &#x279c; [https://techproperties-demo.netlify.app/](https://techproperties-demo.netlify.app/)
 
 ## Preparar Entorno
 
@@ -12,19 +12,19 @@ Landing que ofrece soluciones digitales en el ámbito del real estate y turismo.
 
 - Clonar este repositorio en la ruta [C:/xampp/htdocs](C:\xampp\htdocs) (Windows) o [/var/www/html](/var/www/html) (Linux)
 
-- Crear desde apache un virtual host en la ruta `${SERVER_ROOT}/wp-landing-aecoda`, se comparte un código de ejemplo en [httpd-vhost-example.conf](./docs/httpd-vhost-example.conf)
+- Crear desde apache un virtual host en la ruta `${SERVER_ROOT}/wp-landing-techproperties`, se comparte un código de ejemplo en [httpd-vhost-example.conf](./docs/httpd-vhost-example.conf)
 
 - Modificar el host del servidor para agregar el nuevo dominio `techproperties.es`
 ```sh
 127.0.0.1     techproperties.es
 ```
 
-- Iniciar `phpMyAdmin` para restaurar la base de datos importanto el siguiente archivo [aecoda_db.sql](./docs/aecoda_db.sql)
+- Iniciar `phpMyAdmin` para restaurar la base de datos importando el siguiente archivo [tech_properties_db.sql](./docs/tech_properties_db.sql)
 
 - Ingresar desde el navegador a la ruta [http://techproperties.es/wp-admin](http://techproperties.es/wp-admin) para iniciar sesión en el CMS con las siguientes credenciales:
-```txt
-Usuario:    admin
-Contraseña: !Ad*uWWL##nbj0u(Z&
+```sh
+# Usuario:    admin
+# Contraseña: YBKQDfkNL20XfmJI85
 ```
 
 ## Editar Landing (Desarrollo)
@@ -36,8 +36,9 @@ Ir a la sección `Páginas` y pegar el html escrito en [wp-content/uploads/landi
 2. Usar Editor de Código
 
 Puede iniciar su editor de código preferido desde la ruta [wp-content/uploads](./wp-content/uploads), acá encontrará todos los archivos necesarios para editar la página.
- - Template [wp-content/uploads/landing.html](./wp-content/uploads/landing.html)
- - Styles [wp-content/uploads/main.css](./wp-content/uploads/main.css)
+- Template [wp-content/uploads/landing.html](./wp-content/uploads/landing.html)
+- Styles [wp-content/uploads/main.css](./wp-content/uploads/main.css)
+- JavaScript [wp-content/uploads/main.js](./wp-content/uploads/main.js)
 
 ## Visualización
 
