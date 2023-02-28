@@ -1,7 +1,8 @@
+/* <style id="divi-dynamic-critical-inline-css" type="text/css"> */
 @font-face {
   font-family: ETmodules;
   font-display: block;
-  src: url(/wp-content/uploads/modules.ttf) format("truetype");
+  src: url(/wp-content/uploads/modules.woff) format("woff"), url(/wp-content/uploads/modules.ttf) format("truetype");
   font-weight: 400;
   font-style: normal
 }
@@ -1967,19 +1968,19 @@ input[type="search"]::-webkit-search-cancel-button {
   -moz-animation: none !important
 }
 
-.home.page-template-default.admin-bar.et_fixed_nav #main-header {
+body.admin-bar.et_fixed_nav #main-header {
   top: 32px
 }
 
-.home.page-template-default.et-wp-pre-3_8.admin-bar.et_fixed_nav #main-header {
+body.et-wp-pre-3_8.admin-bar.et_fixed_nav #main-header {
   top: 28px
 }
 
-.home.page-template-default.et_fixed_nav.et_secondary_nav_enabled #main-header {
+body.et_fixed_nav.et_secondary_nav_enabled #main-header {
   top: 30px
 }
 
-.home.page-template-default.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
+body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
   top: 63px
 }
 
@@ -2202,7 +2203,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 @media screen and (max-width: 782px) {
-  .home.page-template-default.admin-bar.et_fixed_nav #main-header {
+  body.admin-bar.et_fixed_nav #main-header {
     top: 46px
   }
 }
@@ -2212,7 +2213,7 @@ input[type="search"]::-webkit-search-cancel-button {
     margin-right: 0
   }
 
-  .home.page-template-default.admin-bar.et_fixed_nav #main-header {
+  body.admin-bar.et_fixed_nav #main-header {
     top: 46px
   }
 }
@@ -2376,10 +2377,10 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 /*!
-	  * Animate.css - http://daneden.me/animate
-	  * Licensed under the MIT license - http://opensource.org/licenses/MIT
-	  * Copyright (c) 2015 Daniel Eden
-	 */
+  * Animate.css - http://daneden.me/animate
+  * Licensed under the MIT license - http://opensource.org/licenses/MIT
+  * Copyright (c) 2015 Daniel Eden
+ */
 @-webkit-keyframes flipInX {
   0% {
     -webkit-transform: perspective(400px) rotateX(90deg);
@@ -2827,21 +2828,21 @@ input[type="search"]::-webkit-search-cancel-button {
   position: absolute
 }
 
-.home.page-template-default.admin-bar.et_non_fixed_nav.et_transparent_nav #main-header,
-.home.page-template-default.admin-bar.et_non_fixed_nav.et_transparent_nav #top-header {
+body.admin-bar.et_non_fixed_nav.et_transparent_nav #main-header,
+body.admin-bar.et_non_fixed_nav.et_transparent_nav #top-header {
   top: 32px
 }
 
-.home.page-template-default.et-wp-pre-3_8.admin-bar.et_non_fixed_nav.et_transparent_nav #main-header,
-.home.page-template-default.et-wp-pre-3_8.admin-bar.et_non_fixed_nav.et_transparent_nav #top-header {
+body.et-wp-pre-3_8.admin-bar.et_non_fixed_nav.et_transparent_nav #main-header,
+body.et-wp-pre-3_8.admin-bar.et_non_fixed_nav.et_transparent_nav #top-header {
   top: 28px
 }
 
-.home.page-template-default.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
+body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   top: 30px
 }
 
-.home.page-template-default.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
+body.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
   top: 63px
 }
 
@@ -2909,8 +2910,8 @@ input[type="search"]::-webkit-search-cancel-button {
 
 @media screen and (max-width: 782px) {
 
-  .home.page-template-default.admin-bar.et_non_fixed_nav.et_transparent_nav #main-header,
-  .home.page-template-default.admin-bar.et_non_fixed_nav.et_transparent_nav #top-header {
+  body.admin-bar.et_non_fixed_nav.et_transparent_nav #main-header,
+  body.admin-bar.et_non_fixed_nav.et_transparent_nav #top-header {
     top: 46px
   }
 
@@ -2918,22 +2919,22 @@ input[type="search"]::-webkit-search-cancel-button {
     top: 46px !important
   }
 
-  .home.page-template-default.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
+  body.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
     top: 80px
   }
 }
 
 @media all and (max-width: 767px) {
-  .home.page-template-default.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_two_panels #main-header {
+  body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_two_panels #main-header {
     top: 58px
   }
 
-  .home.page-template-default.admin-bar.et_non_fixed_nav.et_transparent_nav #top-header,
-  .home.page-template-default.admin-bar.et_non_fixed_nav.et_transparent_nav #main-header {
+  body.admin-bar.et_non_fixed_nav.et_transparent_nav #top-header,
+  body.admin-bar.et_non_fixed_nav.et_transparent_nav #main-header {
     top: 46px
   }
 
-  .home.page-template-default.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_two_panels #main-header {
+  body.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_two_panels #main-header {
     top: 104px
   }
 }
@@ -3149,11 +3150,11 @@ input[type="search"]::-webkit-search-cancel-button {
   left: 2.3em
 }
 
-.home.page-template-default.admin-bar.et_fixed_nav #top-header {
+body.admin-bar.et_fixed_nav #top-header {
   top: 32px
 }
 
-.home.page-template-default.et-wp-pre-3_8.admin-bar.et_fixed_nav #top-header {
+body.et-wp-pre-3_8.admin-bar.et_fixed_nav #top-header {
   top: 28px
 }
 
@@ -3236,7 +3237,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 @media screen and (max-width: 782px) {
-  .home.page-template-default.admin-bar.et_fixed_nav #top-header {
+  body.admin-bar.et_fixed_nav #top-header {
     top: 46px
   }
 
@@ -3244,7 +3245,7 @@ input[type="search"]::-webkit-search-cancel-button {
     top: 46px !important
   }
 
-  .home.page-template-default.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
+  body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
     top: 80px
   }
 }
@@ -3258,7 +3259,7 @@ input[type="search"]::-webkit-search-cancel-button {
     display: inline-block
   }
 
-  .home.page-template-default.et_fixed_nav.et_secondary_nav_two_panels #main-header {
+  body.et_fixed_nav.et_secondary_nav_two_panels #main-header {
     top: 58px
   }
 
@@ -3273,11 +3274,11 @@ input[type="search"]::-webkit-search-cancel-button {
     margin-top: 12px
   }
 
-  .home.page-template-default.admin-bar.et_fixed_nav #top-header {
+  body.admin-bar.et_fixed_nav #top-header {
     top: 46px
   }
 
-  .home.page-template-default.admin-bar.et_fixed_nav.et_secondary_nav_two_panels #main-header {
+  body.admin-bar.et_fixed_nav.et_secondary_nav_two_panels #main-header {
     top: 104px
   }
 }
@@ -3667,8 +3668,8 @@ input[type="search"]::-webkit-search-cancel-button {
     padding: 4% 0
   }
 
-  .home.page-template-default.et_pb_pagebuilder_layout.et_pb_show_title .post-password-required .et_pb_section,
-  .home.page-template-default:not(.et_pb_pagebuilder_layout) .post-password-required .et_pb_section {
+  body.et_pb_pagebuilder_layout.et_pb_show_title .post-password-required .et_pb_section,
+  body:not(.et_pb_pagebuilder_layout) .post-password-required .et_pb_section {
     padding-top: 0
   }
 
@@ -3686,8 +3687,8 @@ input[type="search"]::-webkit-search-cancel-button {
     padding: 50px 0
   }
 
-  .home.page-template-default.et_pb_pagebuilder_layout.et_pb_show_title .post-password-required .et_pb_section,
-  .home.page-template-default:not(.et_pb_pagebuilder_layout) .post-password-required .et_pb_section {
+  body.et_pb_pagebuilder_layout.et_pb_show_title .post-password-required .et_pb_section,
+  body:not(.et_pb_pagebuilder_layout) .post-password-required .et_pb_section {
     padding-top: 0
   }
 
@@ -3733,8 +3734,8 @@ input[type="search"]::-webkit-search-cancel-button {
   position: relative
 }
 
-.home.page-template-default.safari .section_has_divider,
-.home.page-template-default.uiwebview .section_has_divider {
+body.safari .section_has_divider,
+body.uiwebview .section_has_divider {
   -webkit-perspective: 2000px;
   perspective: 2000px
 }
@@ -3813,8 +3814,8 @@ input[type="search"]::-webkit-search-cancel-button {
     padding: 2% 0
   }
 
-  .home.page-template-default.et_pb_pagebuilder_layout.et_pb_show_title .post-password-required .et_pb_row,
-  .home.page-template-default:not(.et_pb_pagebuilder_layout) .post-password-required .et_pb_row {
+  body.et_pb_pagebuilder_layout.et_pb_show_title .post-password-required .et_pb_row,
+  body:not(.et_pb_pagebuilder_layout) .post-password-required .et_pb_row {
     padding: 0;
     width: 100%
   }
@@ -3891,8 +3892,8 @@ input[type="search"]::-webkit-search-cancel-button {
     max-width: 1080px
   }
 
-  .home.page-template-default.et_pb_pagebuilder_layout.et_pb_show_title .post-password-required .et_pb_row,
-  .home.page-template-default:not(.et_pb_pagebuilder_layout) .post-password-required .et_pb_row {
+  body.et_pb_pagebuilder_layout.et_pb_show_title .post-password-required .et_pb_row,
+  body:not(.et_pb_pagebuilder_layout) .post-password-required .et_pb_row {
     padding: 0;
     width: 100%
   }
@@ -4698,8 +4699,7 @@ input[type="search"]::-webkit-search-cancel-button {
   }
 }
 
-
-
+/* https://www.cactusguest.com/wp-content/et-cache/3738/et-divi-dynamic-3738.css?ver=1677182789 */
 .footer-widget h4,
 #main-footer .widget_block h1,
 #main-footer .widget_block h2,
@@ -4723,7 +4723,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 #footer-widgets {
-  padding: 6% 0 6%
+  padding: 6% 0 0
 }
 
 .footer-widget {

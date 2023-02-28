@@ -1,4 +1,5 @@
-.home.page-template-default,
+/* https://www.cactusguest.com/wp-content/et-cache/global/et-divi-customizer-global.min.css?ver=1677168092 */
+body,
 .et_pb_column_1_2 .et_quote_content blockquote cite,
 .et_pb_column_1_2 .et_link_content a.et_link_main_url,
 .et_pb_column_1_3 .et_quote_content blockquote cite,
@@ -19,7 +20,7 @@
   font-size: 18px
 }
 
-.home.page-template-default {
+body {
   color: #000000
 }
 
@@ -32,7 +33,7 @@ h6 {
   color: #000000
 }
 
-.home.page-template-default {
+body {
   line-height: 1.5em
 }
 
@@ -237,7 +238,7 @@ span.et_close_search_field:after,
 }
 
 #et-footer-nav {
-  background-color: #000000
+  background-color: #3c3c3c
 }
 
 .bottom-nav,
@@ -587,7 +588,7 @@ h6 {
   font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif
 }
 
-.home.page-template-default,
+body,
 input,
 textarea,
 select {
